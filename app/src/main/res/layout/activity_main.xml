@@ -44,4 +44,14 @@
         app:layout_constraintStart_toStartOf="parent"
         android:importantForAutofill="no" />
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="edu.temple.fragmentrefactor.MainFragment"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
